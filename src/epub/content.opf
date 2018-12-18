@@ -47,6 +47,7 @@
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/10743</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/30112045831036</dc:source>
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
@@ -57,10 +58,10 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Meade_Falkner</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n82017667</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<dc:contributor id="artist">Johan Christian Dahl</dc:contributor>
+		<meta property="file-as" refines="#artist">Dahl, Johan Christian</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Johan_Christian_Dahl</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n81047942</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Riikka Talonpoika</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Talonpoika, Riikka</meta>
