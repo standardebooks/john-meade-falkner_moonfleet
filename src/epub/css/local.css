@@ -7,7 +7,6 @@
 	hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -16,10 +15,6 @@
 	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
 }
 /* End all epigraphs */
 
@@ -50,10 +45,6 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	}
 }
 /* End full-page epigraphs */
 
@@ -63,10 +54,6 @@ section > header [epub|type~="epigraph"]{
 	margin: auto;
 	max-width: 80%;
 	text-align: left;
-}
-
-section > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
 }
 
 @supports(display: table){
@@ -82,20 +69,6 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-/*
-[epub|type~="title"] +[epub|type~="epigraph"]{
-	margin-bottom: 3em;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-*/
-blockquote.inscription{
-	text-align: center;
-}
-
-blockquote.inscription header,
 [epub|type~="epigraph"] header{
 	font-variant: small-caps;
 	font-style: normal;
@@ -150,8 +123,16 @@ p span.i3{
 	padding-left: 6em;
 }
 
+#chapter-1 [epub|type~="z3998:notice"]{
+	text-align: center;
+}
+
 [epub|type~="z3998:notice"] header{
 	text-align: center;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 1em;
 }
 
 [epub|type~="z3998:notice"] footer{
