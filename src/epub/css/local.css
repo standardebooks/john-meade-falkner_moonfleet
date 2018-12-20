@@ -1,64 +1,141 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+}
+
+[epub|type~="epigraph"] em,
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+/* End all epigraphs */
+
+/* Full-page epigraphs */
+[epub|type~="epigraph"]{
+	text-align: center;
+}
+
+section[epub|type~="epigraph"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: flex){
+	section[epub|type~="epigraph"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
+	}
+
+	section[epub|type~="epigraph"] > * + *{
+		margin-top: 3em;
+	}
+}
+/* End full-page epigraphs */
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: left;
+}
+
+section > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
 span[epub|type~="subtitle"]{
 	display: block;
 	font-variant: small-caps;
 	font-weight: normal;
 }
 
-[epub|type~="bridgehead"]{
-	display: block;
-	font-style: italic;
-	margin-top: 0;
-	margin-right: auto;
+/*
+[epub|type~="title"] +[epub|type~="epigraph"]{
 	margin-bottom: 3em;
+	width: 80%;
+	margin-right: auto;
 	margin-left: auto;
-	max-width: 60%;
+}
+
+*/
+blockquote.inscription{
 	text-align: center;
-	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] blockquote{
-	display: inline-block;
-}
-
-[epub|type~="bridgehead"] .signature{
-	margin-top: 1em;
-	text-align: right;
-}
-
-.signature{
+blockquote.inscription header,
+[epub|type~="epigraph"] header{
 	font-variant: small-caps;
 	font-style: normal;
+	margin-bottom: 1em;
 }
 
-em{
-	font-weight: normal;
-	font-variant: small-caps;
+blockquote > blockquote:first-child{
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-blockquote > blockquote{
-	margin-left: 0;
-	margin-right: 0;
+[epub|type~="z3998:song"],
+[epub|type~="z3998:verse"],
+[epub|type~="z3998:poem"]{
+	display: inline-block; 
 }
 
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p,
 [epub|type~="z3998:poem"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span,
 [epub|type~="z3998:poem"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br,
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] footer,
+[epub|type~="z3998:song"] p + p,
+[epub|type~="z3998:verse"] p + p,
 [epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
 }
@@ -70,29 +147,24 @@ p span.i1{
 
 p span.i3{
 	text-indent: -1em;
-	padding-left: 4em;
+	padding-left: 6em;
 }
 
-[epub|type~="dedication"]{
-	display: block;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 3em;
-	margin-left: auto;
-	max-width: 70%;
+[epub|type~="z3998:notice"] header{
 	text-align: center;
 }
 
-[epub|type~="z3998:inscription"]{
-	text-align: center;
+[epub|type~="z3998:notice"] footer{
+	text-align: right;
 }
 
-[epub|type~="z3998:inscription"] header{
+[epub|type~="z3998:notice"] .signature{
 	font-variant: small-caps;
-	font-style: normal;
+	font-weight: normal;
 }
 
-[epub|type~="dedication"] [epub|type~="z3998:poem"],
-[epub|type~="z3998:inscription"] [epub|type~="z3998:poem"]{
-	display: inline-block;
+[epub|type~="z3998:notice"] em{
+	font-variant: small-caps;
+	font-weight: normal;
+	font-style: normal;
 }
