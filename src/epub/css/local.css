@@ -123,11 +123,18 @@ p span.i3{
 	padding-left: 6em;
 }
 
-#chapter-1 [epub|type~="z3998:notice"]{
+.inscription{
 	text-align: center;
 }
 
-[epub|type~="z3998:notice"] header{
+[epub|type~="epigraph"] .inscription p{
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.inscription header{
 	text-align: center;
 	font-variant: small-caps;
 	font-weight: normal;
@@ -135,17 +142,31 @@ p span.i3{
 	margin-bottom: 1em;
 }
 
-[epub|type~="z3998:notice"] footer{
-	text-align: right;
+.inscription [epub|type~="z3998:poem"]{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-[epub|type~="z3998:notice"] .signature{
-	font-variant: small-caps;
-	font-weight: normal;
-}
-
-[epub|type~="z3998:notice"] em{
+[epub|type~="z3998:letter"] header{
+	text-align: center;
 	font-variant: small-caps;
 	font-weight: normal;
 	font-style: normal;
+	margin-bottom: 1em;
+}
+
+[epub|type~="z3998:letter"] em{
+	font-variant: small-caps;
+	font-weight: normal;
+	font-style: normal;
+}
+
+[epub|type~="z3998:letter"] footer{
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] .signature{
+	font-variant: small-caps;
+	font-weight: normal;
 }
