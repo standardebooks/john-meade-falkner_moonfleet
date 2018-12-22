@@ -1,12 +1,20 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/* All epigraphs */
+/* Subtitles for Chapters */
+span[epub|type~="subtitle"]{
+	display: block;
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+/* All epigraphs and dedication */
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
 }
 
+[epub|type~="dedication"] i,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -18,11 +26,13 @@
 }
 /* End all epigraphs */
 
-/* Full-page epigraphs */
+/* Full-page epigraphs and dedication*/
+[epub|type~="dedication"],
 [epub|type~="epigraph"]{
 	text-align: center;
 }
 
+section[epub|type~="dedication"] > *,
 section[epub|type~="epigraph"] > *{
 	display: inline-block;
 	margin: auto;
@@ -32,6 +42,7 @@ section[epub|type~="epigraph"] > *{
 }
 
 @supports(display: flex){
+	section[epub|type~="dedication"],
 	section[epub|type~="epigraph"]{
 		align-items: center;
 		box-sizing: border-box;
@@ -42,6 +53,7 @@ section[epub|type~="epigraph"] > *{
 		padding-top: 3em;
 	}
 
+	section[epub|type~="dedication"] > *,
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
@@ -63,21 +75,47 @@ section > header [epub|type~="epigraph"]{
 }
 /* End epigraphs in section headers */
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-variant: small-caps;
-	font-weight: normal;
+/* Gravestone-type inscriptions */
+.inscription{
+	text-align: center;
 }
 
-[epub|type~="epigraph"] header{
+.inscription header,
+[epub|type~="dedication"] .inscription{
+	text-align: center;
 	font-variant: small-caps;
+	font-weight: normal;
 	font-style: normal;
 	margin-bottom: 1em;
 }
 
-blockquote > blockquote:first-child{
-	margin-top: 0;
-	margin-bottom: 0;
+.inscription [epub|type~="z3998:poem"]{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+[epub|type~="z3998:letter"] header{
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 1em;
+}
+
+[epub|type~="z3998:letter"] em{
+	font-variant: small-caps;
+	font-weight: normal;
+	font-style: normal;
+}
+
+[epub|type~="z3998:letter"] footer{
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] .signature{
+	font-variant: small-caps;
+	font-weight: normal;
 }
 
 [epub|type~="z3998:song"],
@@ -121,52 +159,4 @@ p span.i1{
 p span.i3{
 	text-indent: -1em;
 	padding-left: 6em;
-}
-
-.inscription{
-	text-align: center;
-}
-
-[epub|type~="epigraph"] .inscription p{
-	text-align: center;
-	font-variant: small-caps;
-	font-weight: normal;
-	font-style: normal;
-}
-
-.inscription header{
-	text-align: center;
-	font-variant: small-caps;
-	font-weight: normal;
-	font-style: normal;
-	margin-bottom: 1em;
-}
-
-.inscription [epub|type~="z3998:poem"]{
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-[epub|type~="z3998:letter"] header{
-	text-align: center;
-	font-variant: small-caps;
-	font-weight: normal;
-	font-style: normal;
-	margin-bottom: 1em;
-}
-
-[epub|type~="z3998:letter"] em{
-	font-variant: small-caps;
-	font-weight: normal;
-	font-style: normal;
-}
-
-[epub|type~="z3998:letter"] footer{
-	text-align: right;
-}
-
-[epub|type~="z3998:letter"] .signature{
-	font-variant: small-caps;
-	font-weight: normal;
 }
