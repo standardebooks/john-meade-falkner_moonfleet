@@ -39,10 +39,12 @@
 		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/10743</meta>
 		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/10743</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Moonfleet is a tale of smuggling, treasure and shipwreck with an adventurous theme and gripping storyline.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Moonfleet&lt;/i&gt;...&lt;/p&gt;
+			&lt;p&gt;Moonfleet is a small village near the sea in the south of England, where village legend tells of the notorious Colonel John “Blackbeard” Mohune who is buried in a family crypt under the church. He is said to have stolen a diamond from King Charles I and hidden it. His ghost is said to wander at night looking for it and the mysterious lights in the churchyard are attributed to his activities.&lt;/p&gt;
+			&lt;p&gt;One night a bad storm hits the village and there is a flood. While attending the Sunday service at church, John Trenchard—an orphan who lives with his aunt—hears strange sounds from the crypt below. He thinks it is the sound of the coffins of the Mohune family. Outside, John finds a large sinkhole has opened in the ground by a grave. He follows a passage and finds himself in the crypt with coffins on shelves and casks on the floor. John realises his friends in Moonfleet are smugglers and the crypt is their hiding place. He finds a locket in a coffin,which holds a piece of paper with verses from the Bible.&lt;/p&gt;
+			&lt;p&gt;The leader of the smugglers, Elzevir Block, plans one last smuggling venture. The excisemen and Maskew—the local magistrate—are aware of the planned smuggling run but do not know exactly where it will occur. During the landing Maskew appears and is caught by the smugglers. Elzevir unintentionally kills Maskew and carries the injured John away to safety and they hide in some old quarries. While there, John inadvertently finds out that the verses from Blackbeard’s locket contain a code that will reveal the location of his famous diamond.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
