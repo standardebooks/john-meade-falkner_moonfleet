@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/john-meade-falkner/moonfleet</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2018-12-27T21:42:57Z</dc:date>
+		<meta property="dcterms:modified">2018-12-27T21:42:57Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -39,20 +39,20 @@
 		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/10743</meta>
 		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/10743</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">Moonfleet is a tale of smuggling, treasure and shipwreck with an adventurous theme and gripping storyline.</dc:description>
+		<dc:description id="description">An adventure tale of smuggling, treasure and shipwreck.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Moonfleet is a small village near the sea in the south of England, where village legend tells of the notorious Colonel John “Blackbeard” Mohune who is buried in a family crypt under the church. He is said to have stolen a diamond from King Charles I and hidden it. His ghost is said to wander at night looking for it and the mysterious lights in the churchyard are attributed to his activities.&lt;/p&gt;
-			&lt;p&gt;One night a bad storm hits the village and there is a flood. While attending the Sunday service at church, John Trenchard—an orphan who lives with his aunt—hears strange sounds from the crypt below. He thinks it is the sound of the coffins of the Mohune family. Outside, John finds a large sinkhole has opened in the ground by a grave. He follows a passage and finds himself in the crypt with coffins on shelves and casks on the floor. John realises his friends in Moonfleet are smugglers and the crypt is their hiding place. He finds a locket in a coffin,which holds a piece of paper with verses from the Bible.&lt;/p&gt;
-			&lt;p&gt;The leader of the smugglers, Elzevir Block, plans one last smuggling venture. The excisemen and Maskew—the local magistrate—are aware of the planned smuggling run but do not know exactly where it will occur. During the landing Maskew appears and is caught by the smugglers. Elzevir unintentionally kills Maskew and carries the injured John away to safety and they hide in some old quarries. While there, John inadvertently finds out that the verses from Blackbeard’s locket contain a code that will reveal the location of his famous diamond.&lt;/p&gt;
+			&lt;p&gt;Moonfleet is a small village near the sea in the south of England, where village legend tells of the notorious Colonel John “Blackbeard” Mohune who is buried in a family crypt under the church. He is said to have stolen a diamond from King Charles I and hidden it. His ghost is said to wander at night looking for it, and the mysterious lights in the churchyard are attributed to his activities.&lt;/p&gt;
+			&lt;p&gt;One night a bad storm floods the village. While attending the Sunday service at church, John Trenchard—an orphan who lives with his aunt—hears strange sounds from the crypt below. Investigating, he soon finds himself in smuggler’s hideout. He finds a locket in a coffin there that holds a piece of paper inscribed with Bible verses.&lt;/p&gt;
+			&lt;p&gt;The leader of the smugglers, Elzevir Block, plans one last smuggling venture. John is swept up in it and inadvertently finds out that the verses from Blackbeard’s locket contain a code that will reveal the location of his famous diamond.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Moonfleet&lt;/i&gt; was hugely popular in its day and was even sometimes studied in schools. Adaptations to screen, radio, and theater continue today.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/10743</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/30112045831036</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">83724</meta>
+		<meta property="se:reading-ease.flesch">73.34</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Moonfleet</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-meade-falkner_moonfleet</meta>
 		<dc:creator id="author">John Meade Falkner</dc:creator>
@@ -84,6 +84,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
