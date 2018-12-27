@@ -80,26 +80,18 @@ section > header [epub|type~="epigraph"]{
 }
 
 .inscription header,
+[epub|type~="dedication"] .inscription,
+[epub|type~="z3998:letter"] header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
 [epub|type~="dedication"] .inscription{
 	text-align: center;
-	font-variant: small-caps;
-	font-weight: normal;
-	font-style: normal;
-	margin-bottom: 1em;
 }
 
-.inscription [epub|type~="z3998:poem"]{
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-[epub|type~="z3998:letter"] header{
-	text-align: center;
-	font-variant: small-caps;
-	font-weight: normal;
-	font-style: normal;
-	margin-bottom: 1em;
+[epub|type~="z3998:letter"] header p{
+	text-indent: 0;
 }
 
 [epub|type~="z3998:letter"] em{
@@ -109,12 +101,12 @@ section > header [epub|type~="epigraph"]{
 }
 
 [epub|type~="z3998:letter"] footer{
+	margin-top: 1em;
 	text-align: right;
 }
 
-[epub|type~="z3998:letter"] .signature{
+.signature{
 	font-variant: small-caps;
-	font-weight: normal;
 }
 
 [epub|type~="z3998:song"],
