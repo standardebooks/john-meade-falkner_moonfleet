@@ -14,7 +14,6 @@ span[epub|type~="subtitle"]{
 	hyphens: none;
 }
 
-[epub|type~="dedication"] i,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -121,7 +120,7 @@ section > header [epub|type~="epigraph"]{
 [epub|type~="z3998:song"],
 [epub|type~="z3998:verse"],
 [epub|type~="z3998:poem"]{
-	display: inline-block; 
+	display: inline-block;
 }
 
 [epub|type~="z3998:song"] p,
