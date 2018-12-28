@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/john-meade-falkner/moonfleet</dc:identifier>
 		<dc:date>2018-12-27T21:42:57Z</dc:date>
-		<meta property="dcterms:modified">2018-12-27T21:42:57Z</meta>
-		<meta property="se:revision-number">1</meta>
+		<meta property="dcterms:modified">2018-12-28T18:57:33Z</meta>
+		<meta property="se:revision-number">2</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -42,9 +42,9 @@
 		<dc:description id="description">An adventure tale of smuggling, treasure and shipwreck.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Moonfleet is a small village near the sea in the south of England, where village legend tells of the notorious Colonel John “Blackbeard” Mohune who is buried in a family crypt under the church. He is said to have stolen a diamond from King Charles I and hidden it. His ghost is said to wander at night looking for it, and the mysterious lights in the churchyard are attributed to his activities.&lt;/p&gt;
-			&lt;p&gt;One night a bad storm floods the village. While attending the Sunday service at church, John Trenchard—an orphan who lives with his aunt—hears strange sounds from the crypt below. Investigating, he soon finds himself in smuggler’s hideout. He finds a locket in a coffin there that holds a piece of paper inscribed with Bible verses.&lt;/p&gt;
-			&lt;p&gt;The leader of the smugglers, Elzevir Block, plans one last smuggling venture. John is swept up in it and inadvertently finds out that the verses from Blackbeard’s locket contain a code that will reveal the location of his famous diamond.&lt;/p&gt;
+			&lt;p&gt;Moonfleet is a small village near the sea in the south of England, where village legend tells of the notorious Colonel John “Blackbeard” Mohune who is buried in a family crypt under the church. He is said to have stolen and hidden a diamond from King Charles I. His ghost is said to wander at night looking for the diamond, and the mysterious lights in the churchyard are attributed to his activities.&lt;/p&gt;
+			&lt;p&gt;One night a bad storm floods the village. While attending the Sunday service at church, John Trenchard—an orphan who lives with his aunt—hears strange sounds from the crypt below. Investigating, he soon finds himself in a smuggler’s hideout, where he discovers a locket in a coffin that holds a piece of paper inscribed with Bible verses.&lt;/p&gt;
+			&lt;p&gt;John soon finds himself swept up in a smuggling venture planned by Elzevir Block, the smugglers’ leader, and inadvertently finds out that the verses from Blackbeard’s locket contain a code that will reveal the location of the famous diamond.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Moonfleet&lt;/i&gt; was hugely popular in its day and was even sometimes studied in schools. Adaptations to screen, radio, and theater continue today.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
