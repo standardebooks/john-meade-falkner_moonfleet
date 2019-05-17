@@ -26,27 +26,29 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Moonfleet</dc:title>
 		<meta property="file-as" refines="#title">Moonfleet</meta>
 		<dc:subject id="subject-1">England -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Adventure stories</dc:subject>
 		<dc:subject id="subject-3">Smugglers -- Fiction</dc:subject>
 		<dc:subject id="subject-4">Treasure troves -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/10743</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/10743</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/10743</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/10743</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh85001072</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2010113420</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008112903</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">An adventure tale of smuggling, treasure and shipwreck.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Moonfleet is a small village near the sea in the south of England, where village legend tells of the notorious Colonel John “Blackbeard” Mohune who is buried in a family crypt under the church. He is said to have stolen and hidden a diamond from King Charles I. His ghost is said to wander at night looking for the diamond, and the mysterious lights in the churchyard are attributed to his activities.&lt;/p&gt;
 			&lt;p&gt;One night a bad storm floods the village. While attending the Sunday service at church, John Trenchard—an orphan who lives with his aunt—hears strange sounds from the crypt below. Investigating, he soon finds himself in a smuggler’s hideout, where he discovers a locket in a coffin that holds a piece of paper inscribed with Bible verses.&lt;/p&gt;
 			&lt;p&gt;John soon finds himself swept up in a smuggling venture planned by Elzevir Block, the smugglers’ leader, and inadvertently finds out that the verses from Blackbeard’s locket contain a code that will reveal the location of the famous diamond.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Moonfleet&lt;/i&gt; was hugely popular in its day and was even sometimes studied in schools. Adaptations to screen, radio, and theater continue today.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/10743</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/30112045831036</dc:source>
