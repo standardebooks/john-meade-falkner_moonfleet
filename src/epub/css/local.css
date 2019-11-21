@@ -25,7 +25,7 @@ span[epub|type~="subtitle"]{
 }
 /* End all epigraphs */
 
-/* Full-page epigraphs and dedication*/
+/* Full-page epigraphs and dedication */
 [epub|type~="dedication"],
 [epub|type~="epigraph"]{
 	text-align: center;
