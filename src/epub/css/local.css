@@ -136,11 +136,11 @@ section > header [epub|type~="epigraph"]{
 }
 
 p span.i1{
-	text-indent: -1em;
 	padding-left: 2em;
+	text-indent: -1em;
 }
 
 p span.i3{
-	text-indent: -1em;
 	padding-left: 6em;
+	text-indent: -1em;
 }
