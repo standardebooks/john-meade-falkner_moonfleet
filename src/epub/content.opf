@@ -59,12 +59,12 @@
 		<dc:creator id="author">John Meade Falkner</dc:creator>
 		<meta property="file-as" refines="#author">Falkner, John Meade</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Meade_Falkner</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n82017667</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n82017667</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Johan Christian Dahl</dc:contributor>
 		<meta property="file-as" refines="#artist">Dahl, Johan Christian</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Johan_Christian_Dahl</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n81047942</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n81047942</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Riikka Talonpoika</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Talonpoika, Riikka</meta>
