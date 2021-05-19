@@ -55,7 +55,7 @@
 		<dc:source>https://catalog.hathitrust.org/Record/30112045831036</dc:source>
 		<meta property="se:word-count">83724</meta>
 		<meta property="se:reading-ease.flesch">73.24</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Moonfleet</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Moonfleet_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-meade-falkner_moonfleet</meta>
 		<dc:creator id="author">John Meade Falkner</dc:creator>
 		<meta property="file-as" refines="#author">Falkner, John Meade</meta>
