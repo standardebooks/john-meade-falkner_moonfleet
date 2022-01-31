@@ -13,9 +13,9 @@
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -89,9 +89,9 @@ section > header [epub|type~="epigraph"]{
 }
 
 [epub|type~="z3998:letter"] em{
+	font-style: normal;
 	font-variant: small-caps;
 	font-weight: normal;
-	font-style: normal;
 }
 
 [epub|type~="z3998:letter"] footer{
