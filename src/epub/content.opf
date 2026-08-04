@@ -43,7 +43,7 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008112903</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>An adventure tale of smuggling, treasure and shipwreck.</dc:abstract>
+		<meta property="schema:abstract">An adventure tale of smuggling, treasure and shipwreck.</meta>
 		<dc:description>
 			&lt;p&gt;Moonfleet is a small village near the sea in the south of England, where village legend tells of the notorious Colonel John “Blackbeard” Mohune who is buried in a family crypt under the church. He is said to have stolen and hidden a diamond from King Charles I. His ghost is said to wander at night looking for the diamond, and the mysterious lights in the churchyard are attributed to his activities.&lt;/p&gt;
 			&lt;p&gt;One night a bad storm floods the village. While attending the Sunday service at church, John Trenchard—an orphan who lives with his aunt—hears strange sounds from the crypt below. Investigating, he soon finds himself in a smuggler’s hideout, where he discovers a locket in a coffin that holds a piece of paper inscribed with Bible verses.&lt;/p&gt;
